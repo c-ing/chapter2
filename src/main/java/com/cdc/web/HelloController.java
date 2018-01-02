@@ -41,6 +41,7 @@ public class HelloController {
     public String index(ModelMap model){
         model.put("time", new Date());
         model.put("message", this.message);
+        System.out.println("cdc commit project to github");
         return "Hello";
     }
 
